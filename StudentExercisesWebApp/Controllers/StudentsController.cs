@@ -48,7 +48,7 @@ namespace StudentExercisesWebApp.Controllers
 
         // GET: Students/Create
         public IActionResult Create()
-        {
+        {  
             CreateStudentViewModel model = new CreateStudentViewModel(_context);
             return View(model);
         }
